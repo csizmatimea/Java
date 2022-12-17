@@ -16,8 +16,10 @@ public class Task81 {
 
         String resultText = "";
 
+        String stars="";
+
         for (String newtext : names) {
-            text = text.replaceAll(newtext, "*");
+            text = text.replaceAll(newtext, stars);
         }
         System.out.println(text);
     }
